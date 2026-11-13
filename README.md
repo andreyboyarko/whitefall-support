@@ -1,21 +1,17 @@
-# WHITEFALL — Support
+# WHITEFALL — Infinity Abyss
 
-Hulio Studio · INFINITY ABYSS
+Official showcase, support and privacy pages for WHITEFALL, an independent iPhone game by Andrei Bayarka / Hulio Studio.
 
-WHITEFALL is a free iPhone game with no advertising, in-app purchases or subscriptions.
-There is no daily attempt limit or waiting timer. Practice and one continuation per run
-are free. Exterior unlocks after a 5,000 m ranked Interior run.
+Live site: https://andreyboyarko.github.io/whitefall-support/
 
-Contact: [huliostudiosupport@gmail.com](mailto:huliostudiosupport@gmail.com).
+- `index.html` — project showcase with real gameplay film and seven full-frame screenshots.
+- `support.html` — support and gameplay help.
+- `privacy.html` — privacy policy (stable App Store URL).
+- `assets/` — self-hosted media. Video uses `preload="none"` and only loads on Play. Images keep their original aspect ratios and are displayed with `object-fit: contain`.
 
-For a bug report, include your iPhone model, iOS version, game version and the steps
-that caused the problem. Screenshots or a short recording are welcome. Please do not
-send passwords, payment information or other unnecessary personal information.
+No framework, analytics, advertising, cookies or external fonts. The language switch is session-only. Static files deploy from the `main` branch root with GitHub Pages.
 
-Records and settings are stored on your iPhone. Game Center is optional; the game
-can be played offline. Practice and continued runs are not ranked submissions.
-
-[Privacy policy](PRIVACY.md)
+Contact: huliostudiosupport@gmail.com.
 
 ## Acknowledgements
 
@@ -24,5 +20,4 @@ Deep Star Maps 2020, visualization by Ernie Wright; Gaia DR2, Hipparcos-2 and
 Tycho-2 catalogue data with Yale, UCAC3 and XHIP contributions.
 Source: https://svs.gsfc.nasa.gov/4851/ . No endorsement is implied.
 
-Michroma font: Copyright 2011 The Michroma Project Authors; SIL Open Font License 1.1.
-The complete font licence is included in the distributed application.
+The images and video on this site are supplied gameplay captures from WHITEFALL.

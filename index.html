@@ -3,32 +3,65 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Official support for WHITEFALL by Hulio Studio.">
-  <title>WHITEFALL — Support</title>
-  <style>
-    :root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#101116;color:#f0eff5;font:17px/1.65 system-ui,-apple-system,sans-serif}main{max-width:760px;margin:auto;padding:64px 24px}h1{font-size:clamp(2rem,8vw,3.5rem);line-height:1.1;letter-spacing:.07em;margin:0 0 12px}h2{font-size:1.25rem;margin-top:32px}a{color:#c5acff}a:focus-visible{outline:3px solid #c5acff;outline-offset:4px}.muted{color:#b9b7c5}nav{display:flex;gap:24px;flex-wrap:wrap;margin:24px 0 40px}footer{border-top:1px solid #393642;margin-top:44px;padding-top:20px;font-size:.9rem}li{margin-bottom:8px}
-  </style>
+  <meta name="theme-color" content="#080a10">
+  <meta name="description" content="WHITEFALL: Infinity Abyss — an original iPhone arcade flight game by Andrei Bayarka. Explore two worlds through real gameplay footage and screenshots.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="WHITEFALL — Infinity Abyss">
+  <meta property="og:description" content="An original iPhone arcade flight game. Explore it through real gameplay footage and screenshots.">
+  <meta property="og:image" content="https://andreyboyarko.github.io/whitefall-support/assets/frame-9329.webp">
+  <title>WHITEFALL — Infinity Abyss · Game & Project</title>
+  <link rel="icon" type="image/webp" href="assets/whitefall-mark.webp">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="site.js"></script>
 </head>
 <body>
-<main>
-  <header><p class="muted">Hulio Studio</p><h1>WHITEFALL</h1><p>Infinity Abyss · Support</p></header>
-  <nav aria-label="Site navigation"><a href="index.html" aria-current="page">Support</a><a href="privacy.html">Privacy policy</a></nav>
-  <h2>Need help?</h2>
-  <p>Email <a href="mailto:huliostudiosupport@gmail.com">huliostudiosupport@gmail.com</a>. Please include your iPhone model, iOS version, game version and a short description of what happened. A screenshot or short recording can help, but avoid sending passwords, payment information or other sensitive details.</p>
-  <h2>About the free version</h2>
-  <p>WHITEFALL is free to play, without advertising, purchases, subscriptions, lives or waiting timers. You can retry as often as you like. One free continuation is available per run; a continued run becomes Practice and is not submitted to the ranked leaderboards.</p>
-  <h2>Worlds and practice</h2>
-  <p>Interior is available from the start. Exterior unlocks after reaching 5,000 metres in a ranked Interior run. Practice, earned checkpoints and starting-speed controls are free. Practice scores are separate from ranked scores.</p>
-  <h2>Game Center and offline play</h2>
-  <p>You do not need a WHITEFALL account. Gameplay works offline. Ranked leaderboards use Apple Game Center and require its availability and an internet connection. If sign-in is unavailable, you can continue playing with local progress.</p>
-  <h2>Progress and troubleshooting</h2>
-  <ul>
-    <li>Records, unlocks and preferences are stored locally. Do not delete the app to troubleshoot a problem: removal can delete its local progress.</li>
-    <li>For a freeze or display problem, close and reopen the app first. When reporting a recurring issue, describe the world and the steps that reproduce it.</li>
-    <li>For Game Center sign-in issues, check Game Center in iPhone Settings. We cannot access or reset your Apple Account.</li>
-  </ul>
-  <p>How local progress, optional Game Center and support messages are handled is explained in our <a href="privacy.html">privacy policy</a>.</p>
-  <footer><p>WHITEFALL · Hulio Studio<br><a href="mailto:huliostudiosupport@gmail.com">huliostudiosupport@gmail.com</a></p></footer>
-</main>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="WHITEFALL home"><img src="assets/whitefall-mark.webp" width="48" height="48" alt=""><span>WHITEFALL</span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#film" data-i18n="navFilm">Film</a><a href="#worlds" data-i18n="navWorlds">Worlds</a><a href="#gallery" data-i18n="navGallery">Gallery</a><a href="#project" data-i18n="navProject">Project</a>
+    </nav>
+    <div class="header-actions"><button id="language" class="lang" type="button" aria-label="Switch language">RU</button><a class="header-contact" href="support.html" data-i18n="navSupport">Support</a></div>
+  </header>
+  <main id="main">
+    <section class="hero page-wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="heroKicker">AN ORIGINAL IPHONE GAME</span><span class="serial">/ 01</span></p>
+        <h1 id="hero-title">WHITE<span>FALL</span></h1>
+        <p class="hero-sub">INFINITY ABYSS</p>
+        <p class="hero-lead" data-i18n="heroLead">An endless route through a world of white armor, amethyst and deep space. Every turn asks for one more precise move.</p>
+        <div class="hero-buttons"><a class="button button-primary" href="#film"><span data-i18n="watchFilm">Watch gameplay</span><span aria-hidden="true">↗</span></a><a class="button button-ghost" href="#gallery"><span data-i18n="exploreFrames">Explore frames</span><span aria-hidden="true">↓</span></a></div>
+        <div class="hero-meta"><span>iPHONE</span><span>UNITY 6 / URP</span><span>INTERIOR + EXTERIOR</span></div>
+      </div>
+      <figure class="hero-visual media-frame"><img src="assets/frame-9329.webp" width="2556" height="1179" alt="Exterior gameplay: white armored route arcs through a star field toward a violet orbital structure" fetchpriority="high"><figcaption><span data-i18n="heroVisual">EXTERIOR / LIVE GAMEPLAY</span><span>01 — 07</span></figcaption></figure>
+    </section>
+    <section class="intro-band" aria-label="Game introduction"><div class="page-wrap intro-band-inner"><p class="section-number">[ THE EXPERIENCE ]</p><p class="intro-statement" data-i18n="introStatement">There is no finish line. Read the path, slip between hazards and push your personal best further into the abyss.</p><div class="thin-rule"></div></div></section>
+    <section class="section page-wrap" id="film" aria-labelledby="film-title">
+      <div class="section-heading"><div><p class="section-number">01 / MOTION</p><h2 id="film-title" data-i18n="filmTitle">See it in motion.</h2></div><p class="section-aside" data-i18n="filmAside">Real gameplay footage · Interior and Exterior · 29 seconds</p></div>
+      <div class="film-shell"><video id="gameplay-film" controls playsinline preload="none" poster="assets/film-poster.webp" width="1918" height="886" aria-label="WHITEFALL gameplay video"><source src="assets/whitefall-gameplay.mp4" type="video/mp4">Your browser cannot play this video.</video></div>
+      <div class="film-caption"><span><span class="violet-dot"></span><span data-i18n="filmCaption">Captured from the game. Tap Play to load the film.</span></span><a href="assets/whitefall-gameplay.mp4" download data-i18n="downloadFilm">Download video ↗</a></div>
+    </section>
+    <section class="section worlds-section" id="worlds" aria-labelledby="worlds-title"><div class="page-wrap">
+      <div class="section-heading"><div><p class="section-number">02 / TWO WORLDS</p><h2 id="worlds-title" data-i18n="worldsTitle">One route. Two perspectives.</h2></div><p class="section-aside" data-i18n="worldsAside">The same white armor takes on a different meaning when the world turns inside out.</p></div>
+      <article class="world-card"><div class="world-text"><span class="world-count">01 — INTERIOR</span><h3 data-i18n="interiorTitle">Inside the machine</h3><p data-i18n="interiorText">Fly through a vast honeycomb tunnel. Four-blade fans, amethyst formations and changing light turn every opening into a decision.</p><span class="world-tag" data-i18n="interiorTag">WHITE / VIOLET / GRAPHITE</span></div><figure class="media-frame"><img src="assets/frame-9353.webp" width="2556" height="1179" loading="lazy" alt="Four-blade fan inside the white honeycomb tunnel"><figcaption><span>INTERIOR / FAN</span><span>03 — 07</span></figcaption></figure></article>
+      <article class="world-card world-card-reverse"><div class="world-text"><span class="world-count">02 — EXTERIOR</span><h3 data-i18n="exteriorTitle">Beyond the shell</h3><p data-i18n="exteriorText">Ride the outside of the armored route against a star-filled sky. Curves, orbital machinery and amethyst fields change how you read the path ahead.</p><span class="world-tag" data-i18n="exteriorTag">ARMOR / SPACE / AMETHYST</span></div><figure class="media-frame"><img src="assets/frame-9330.webp" width="2556" height="1179" loading="lazy" alt="Exterior armored route curving through space beside amethyst crystals"><figcaption><span>EXTERIOR / AMETHYST</span><span>05 — 07</span></figcaption></figure></article>
+    </div></section>
+    <section class="section page-wrap" id="gallery" aria-labelledby="gallery-title"><div class="section-heading"><div><p class="section-number">03 / VISUAL ARCHIVE</p><h2 id="gallery-title" data-i18n="galleryTitle">Frames from the abyss.</h2></div><p class="section-aside" data-i18n="galleryAside">Seven game views. Open any frame to see the whole image.</p></div>
+      <div class="gallery-grid">
+        <button class="gallery-item" type="button" data-full="assets/frame-9352.webp" data-caption="INTERIOR / AMETHYST" aria-label="Open Interior amethyst screenshot"><img src="assets/frame-9352.webp" width="2556" height="1179" loading="lazy" alt="White tunnel with violet amethyst obstacles"><span>01 <i>INTERIOR / AMETHYST</i><b>↗</b></span></button>
+        <button class="gallery-item" type="button" data-full="assets/frame-9325.webp" data-caption="INTERIOR / VIOLET" aria-label="Open violet tunnel screenshot"><img src="assets/frame-9325.webp" width="2556" height="1179" loading="lazy" alt="Violet honeycomb tunnel with a fan"><span>02 <i>INTERIOR / VIOLET</i><b>↗</b></span></button>
+        <button class="gallery-item" type="button" data-full="assets/frame-9353.webp" data-caption="INTERIOR / FAN" aria-label="Open fan screenshot"><img src="assets/frame-9353.webp" width="2556" height="1179" loading="lazy" alt="Four-blade fan inside the armored tunnel"><span>03 <i>INTERIOR / FAN</i><b>↗</b></span></button>
+        <button class="gallery-item" type="button" data-full="assets/frame-9354.webp" data-caption="INTERIOR / CRYSTAL FIELD" aria-label="Open crystal field screenshot"><img src="assets/frame-9354.webp" width="2556" height="1179" loading="lazy" alt="Multiple amethyst hazards inside the white tunnel"><span>04 <i>INTERIOR / CRYSTAL FIELD</i><b>↗</b></span></button>
+        <button class="gallery-item" type="button" data-full="assets/frame-9329.webp" data-caption="EXTERIOR / ORBITAL GATE" aria-label="Open orbital gate screenshot"><img src="assets/frame-9329.webp" width="2556" height="1179" loading="lazy" alt="Exterior route leading to a violet orbital gate"><span>05 <i>EXTERIOR / ORBITAL GATE</i><b>↗</b></span></button>
+        <button class="gallery-item" type="button" data-full="assets/frame-9330.webp" data-caption="EXTERIOR / AMETHYST" aria-label="Open Exterior amethyst screenshot"><img src="assets/frame-9330.webp" width="2556" height="1179" loading="lazy" alt="Curved exterior route with amethyst obstacles"><span>06 <i>EXTERIOR / AMETHYST</i><b>↗</b></span></button>
+        <button class="gallery-item gallery-item-wide" type="button" data-full="assets/frame-9328.webp" data-caption="EXTERIOR / THE ROUTE" aria-label="Open exterior route screenshot"><img src="assets/frame-9328.webp" width="2556" height="1179" loading="lazy" alt="Long white route extending through deep space"><span>07 <i>EXTERIOR / THE ROUTE</i><b>↗</b></span></button>
+      </div>
+    </section>
+    <section class="project-section" id="project" aria-labelledby="project-title"><div class="page-wrap project-grid"><div><p class="section-number">04 / THE PROJECT</p><h2 id="project-title" data-i18n="projectTitle">Built to be felt, not explained.</h2></div><div class="project-detail"><p data-i18n="projectText">WHITEFALL is an independent arcade flight game created by Andrei Bayarka under Hulio Studio. Its visual language pairs white and graphite honeycomb armor with violet machinery and amethyst hazards. The game is built in Unity for iPhone, with authored 3D assets and a procedurally extended route.</p><div class="project-facts"><div><strong>02</strong><span data-i18n="factWorlds">distinct worlds</span></div><div><strong>∞</strong><span data-i18n="factRuns">repeatable runs</span></div><div><strong>01</strong><span data-i18n="factGoal">goal: go further</span></div></div><p class="project-footnote" data-i18n="projectFootnote">Free game. No ads or in-app purchases. Personal bests and optional Game Center leaderboards. iPhone release in preparation.</p></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="page-wrap"><div class="footer-top"><div><img src="assets/whitefall-mark.webp" width="70" height="70" alt=""><p>WHITEFALL <small>INFINITY ABYSS</small></p></div><p data-i18n="footerLine">A world worth flying through.</p></div><div class="footer-bottom"><span>© <span id="year">2026</span> Andrei Bayarka · Hulio Studio</span><nav aria-label="Footer navigation"><a href="support.html" data-i18n="navSupport">Support</a><a href="privacy.html" data-i18n="privacy">Privacy</a><a href="mailto:huliostudiosupport@gmail.com" data-i18n="contact">Contact</a></nav></div></div></footer>
+  <dialog id="lightbox" aria-label="Expanded gameplay screenshot"><button class="lightbox-close" type="button" aria-label="Close screenshot">×</button><figure><img alt=""><figcaption></figcaption></figure></dialog>
 </body>
 </html>

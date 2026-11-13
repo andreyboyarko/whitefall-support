@@ -1,8 +1,10 @@
 # WHITEFALL — Privacy policy
 
-Hulio Studio · Last updated: 4 November 2026
+Hulio Studio · Last updated: 13 November 2026
 
-This policy describes the free iPhone version of WHITEFALL and its support pages.
+This policy describes the free iPhone version of WHITEFALL and its game showcase and support pages.
+Andrei Bayarka, operating under the name Hulio Studio, is responsible for the
+personal information handled by the developer as described in this policy.
 Contact Hulio Studio at [huliostudiosupport@gmail.com](mailto:huliostudiosupport@gmail.com)
 with questions or privacy requests.
 
@@ -15,16 +17,18 @@ or cross-app advertising tracking.
 
 ## Local progress
 
-Your records, earned unlocks, practice checkpoints and preferences are stored on
+Your records, earned unlocks and preferences are stored on
 your iPhone. WHITEFALL does not upload these local preferences to a developer-run
 server. They may be included in device backups managed by you and Apple. Removing
 the app can remove local progress. Device backup behaviour is controlled by iOS.
 
 ## Optional Apple Game Center
 
-If you use Game Center, eligible ranked distances are submitted to Apple's
+If you are signed in to Game Center, your best completed distances are submitted to Apple's
 leaderboards and may appear with your Game Center profile under Apple's settings
-and terms. Practice and continued runs are not submitted as ranked results.
+and terms. Only your best completed distance is used for the world's leaderboard;
+abandoned flights are not submitted. Your place is requested only when you tap
+MY WORLD RANK. Legacy practice records remain local and are not promoted.
 You can play without Game Center or an internet connection.
 
 Apple operates Game Center and controls its account information, retention and
@@ -34,11 +38,12 @@ Apple Account credentials or delete Apple's account data on your behalf.
 
 ## Diagnostics
 
-The game and Unity engine can produce local startup timing and error logs.
-WHITEFALL does not automatically send these local diagnostic files to our support
-inbox. Apple may separately provide crash or analytics information under your
-device's privacy/sharing settings and Apple's policies. If you choose to send a
-log, screenshot or recording, we use it to investigate your request.
+The release version does not create custom FPS, memory, thermal or startup
+performance journals and does not upload performance telemetry to Hulio Studio.
+The Unity engine or iOS may produce system error or crash information. Apple may
+provide crash or analytics information under your device's sharing settings and
+Apple's policies. If you choose to send a screenshot, recording or diagnostic
+report to support, we use it to investigate your request.
 
 ## Support email
 
@@ -52,8 +57,10 @@ email; identity may need to be verified to protect your information.
 
 ## Hosting and external services
 
-Support pages are hosted by GitHub. They contain no developer-added advertising,
-analytics scripts, forms or tracking cookies. GitHub may process technical request
+The game showcase and support pages are hosted by GitHub. The showcase contains
+self-hosted screenshots and a video loaded on play, but no developer-added advertising,
+analytics scripts, forms or tracking cookies. The language switch does not save a
+preference. GitHub may process technical request
 data under its [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 GitHub's own interface and Apple services follow their respective policies.
 
@@ -63,5 +70,13 @@ We do not knowingly request personal information from children to play. Contact
 support if a child has sent personal information that should be removed.
 Updates to this policy will appear here with a revised date. For questions or
 requests about your rights under applicable law, contact the address above.
+
+Depending on your location, you may also have rights to restrict or object to
+processing, receive a portable copy of information you provided, and complain to
+your local data protection authority. We use support correspondence to respond
+to your request and for our legitimate interest in resolving technical problems.
+Service providers may process information outside your country under their
+applicable privacy terms and safeguards. We do not sell personal information or
+share it for cross-context behavioural advertising.
 
 [Support](README.md)
