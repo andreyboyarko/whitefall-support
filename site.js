@@ -2,6 +2,7 @@ const ru = {
   navFilm:"Видео",navWorlds:"Миры",navGallery:"Галерея",navProject:"Проект",navSupport:"Поддержка",
   heroKicker:"ОРИГИНАЛЬНАЯ ИГРА ДЛЯ IPHONE",
   heroLead:"Уклоняйтесь от препятствий и продержитесь как можно дольше. Каждый новый метр — шанс побить личный рекорд в этой аркадной игре на Unity.",
+  joinTestFlight:"Тестировать в TestFlight",testflightNote:"Открытое тестирование на iPhone через Apple TestFlight.",testflightLink:"TestFlight",
   watchFilm:"Смотреть игру",exploreFrames:"Смотреть кадры",heroVisual:"EXTERIOR / КАДР ИЗ ИГРЫ",
   introStatement:"Цель — продержаться как можно дольше. Читайте трассу, проходите между препятствиями и продвигайте личный рекорд всё глубже в бездну.",
   filmTitle:"Увидеть в движении.",filmAside:"Настоящая запись игры · Interior и Exterior · 29 секунд",
